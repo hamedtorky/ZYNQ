@@ -1,0 +1,15 @@
+
+*.SchDocPreview
+__Previews/
+Logs/
+History/
+Project Logs for Phaserker_Control_PCB/
+Project Outputs for Phaserker_Control_PCB/
+Project Outputs for Phaserker_Control_PCB\
+Project Logs for charger-front-panelPCB-hw/
+Outputs/
+*.$$$
+*.$$$
+charger-controlPCB-hw/Documents/~$MCU GPIO.ods
+*.zip
+*.log
