@@ -152,6 +152,23 @@ GenerateClassCluster=0
 DocumentUniqueId=FHAGQHOV
 
 [Document7]
+DocumentPath=PSCLK.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=20
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=HMEEBCFM
+
+[Document8]
 DocumentPath=Power.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -168,7 +185,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HXIITCKX
 
-[Document8]
+[Document9]
 DocumentPath=GPIO.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -185,7 +202,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EPMCTFTQ
 
-[Document9]
+[Document10]
 DocumentPath=HDMI.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -202,7 +219,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CZPBNAVC
 
-[Document10]
+[Document11]
 DocumentPath=Sheet5.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -219,7 +236,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WEEOGAIP
 
-[Document11]
+[Document12]
 DocumentPath=CCZynq.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -236,7 +253,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document12]
+[Document13]
 DocumentPath=USB.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -253,7 +270,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OKIHVGNO
 
-[Document13]
+[Document14]
 DocumentPath=SDCARD.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -270,7 +287,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IUHEUYPH
 
-[Document14]
+[Document15]
 DocumentPath=Ethernet.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -287,7 +304,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MGFNHXQW
 
-[Document15]
+[Document16]
 DocumentPath=PCB.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -304,7 +321,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TCLYSOKO
 
-[Document16]
+[Document17]
 DocumentPath=CCZynq.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -321,7 +338,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document17]
+[Document18]
 DocumentPath=Power_VCC1V8.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -338,7 +355,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KQDXQAWS
 
-[Document18]
+[Document19]
 DocumentPath=Power_VCC1V5.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -355,7 +372,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UYPQRPPX
 
-[Document19]
+[Document20]
 DocumentPath=Power_VCC1V0.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -372,7 +389,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LOAPVELJ
 
-[Document20]
+[Document21]
 DocumentPath=Power_VCC3V3.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -389,7 +406,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SZYIMIYT
 
-[Document21]
+[Document22]
 DocumentPath=Power_DDRTermination.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -406,7 +423,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DHULACUQ
 
-[Document22]
+[Document23]
 DocumentPath=PCB.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -422,6 +439,40 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NTKWNNDD
+
+[Document24]
+DocumentPath=CCZynq.SCHLIB
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=NVBYMCUQ
+
+[Document25]
+DocumentPath=Power_Main.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=21
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=QDWDIVPW
 
 [ProjectVariant1]
 UniqueID=CC7EE793-E648-409E-9BD0-A31595FCC60A
