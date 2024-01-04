@@ -187,57 +187,6 @@ GenerateClassCluster=0
 DocumentUniqueId=HXIITCKX
 
 [Document9]
-DocumentPath=GPIO.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=5
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=EPMCTFTQ
-
-[Document10]
-DocumentPath=HDMI.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=6
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=CZPBNAVC
-
-[Document11]
-DocumentPath=Sheet5.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=4
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=WEEOGAIP
-
-[Document12]
 DocumentPath=CCZynq.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -254,24 +203,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document13]
-DocumentPath=USB.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=9
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=OKIHVGNO
-
-[Document14]
+[Document10]
 DocumentPath=SDCARD.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -288,24 +220,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IUHEUYPH
 
-[Document15]
-DocumentPath=Ethernet.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=11
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=MGFNHXQW
-
-[Document16]
+[Document11]
 DocumentPath=PCB.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -322,7 +237,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TCLYSOKO
 
-[Document17]
+[Document12]
 DocumentPath=CCZynq.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -339,7 +254,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document18]
+[Document13]
 DocumentPath=Power_DDRTermination.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -356,7 +271,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DHULACUQ
 
-[Document19]
+[Document14]
 DocumentPath=CCZynq.SCHLIB
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -373,7 +288,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NVBYMCUQ
 
-[Document20]
+[Document15]
 DocumentPath=PCB1.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -390,7 +305,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AEFCUYMJ
 
-[Document21]
+[Document16]
 DocumentPath=..\..\AltiumLL\SamacSys.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -407,7 +322,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document22]
+[Document17]
 DocumentPath=DDR3.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
