@@ -1,0 +1,10 @@
+Output: RINF Netlist
+Type  : RINFNetlist
+From  : Project [CCZynq.PrjPCB]
+   Generated File[CCZynq.FRP]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 6:45:18 PM On 1/11/2024
