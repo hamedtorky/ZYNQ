@@ -340,23 +340,6 @@ GenerateClassCluster=0
 DocumentUniqueId=CRDVFLVG
 
 [Document18]
-DocumentPath=Panel.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=NBRIJBLH
-
-[Document19]
 DocumentPath=DDR3.PCBDwf
 AnnotationEnabled=1
 AnnotateStartValue=1
