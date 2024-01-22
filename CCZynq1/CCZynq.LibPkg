@@ -83,7 +83,7 @@ GenerateClassCluster=0
 DocumentUniqueId=NVHCPHER
 
 [SearchPath1]
-Path=C:\Users\Ali\Downloads\Compressed\SqueakyBoard-master\SqueakyBoard-master\altium\CCZynq1\*.*
+Path=C:\Users\Ali\Documents\GitHub\altium\CCZynq1\*.*
 IncludeSubFolders=1
 
 [OutputGroup1]
