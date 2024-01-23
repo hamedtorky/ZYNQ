@@ -12,11 +12,11 @@ SeparateFolders=0
 TemplateLocationPath=
 PinSwapBy_Netlabel=1
 PinSwapBy_Pin=1
-AllowPortNetNames=1
+AllowPortNetNames=0
 AllowSheetEntryNetNames=1
 AppendSheetNumberToLocalNets=0
 NetlistSinglePinNets=0
-DefaultConfiguration=Sources
+DefaultConfiguration=Default - All Constraints
 UserID=0xFFFFFFFF
 DefaultPcbProtel=1
 DefaultPcbPcad=0
@@ -24,40 +24,39 @@ ReorderDocumentsOnCompile=1
 NameNetsHierarchically=0
 PowerPortNamesTakePriority=0
 AutoSheetNumbering=0
-AutoCrossReferences=0
-NewIndexingOfSheetSymbols=0
+AutoCrossReferences=1
+NewIndexingOfSheetSymbols=1
 PushECOToAnnotationFile=1
 DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-IsProjectConflictPreventionWarningsEnabled=1
+IsProjectConflictPreventionWarningsEnabled=0
 ConstraintManagerFlow=0
 IsVirtualBomDocumentRemoved=0
 OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
-CrossRefSheetStyle=1
+CrossRefSheetStyle=2
 CrossRefLocationStyle=1
 CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
-CurrentVariant=nf
 
 [Preferences]
 PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=Sheets\ZYNQ_DDR3.SchDoc
+DocumentPath=..\CCZynq.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=0
+AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -65,129 +64,10 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=UCAPPFHN
+DocumentUniqueId=GUSULKYB
 
 [Document2]
-DocumentPath=Sheets\ZYNQ_PS.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=FHAGQHOV
-
-[Document3]
-DocumentPath=Sheets\SDCARD.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=2
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document4]
-DocumentPath=Sheets\ZYNQ_BANK.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=3
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=LOOFRRZJ
-
-[Document5]
-DocumentPath=Sheets\ZYNQ_FLASH.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=4
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=QYRSVBTF
-
-[Document6]
-DocumentPath=Sheets\PSCLK.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=5
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document7]
-DocumentPath=Sheets\ZYNQ_PW.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=6
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document8]
-DocumentPath=Sheets\Power.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=7
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document9]
-DocumentPath=CCZynq.IntLib
+DocumentPath=..\CCZynq.SCHLIB
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -201,263 +81,64 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=NVHCPHER
 
-[Document10]
-DocumentPath=Sheets\Diagram.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=8
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=CJSMABKO
-
-[Document11]
-DocumentPath=CCZynq.BomDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document12]
-DocumentPath=Sheets\Power_DDRTermination.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=9
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document13]
-DocumentPath=CCZynq.SCHLIB
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=NVBYMCUQ
-
-[Document14]
-DocumentPath=PCB1.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=AEFCUYMJ
-
-[Document15]
-DocumentPath=..\..\AltiumLL\SamacSys.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document16]
-DocumentPath=DDR3.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=CRDVFLVG
-
-[Document17]
-DocumentPath=DDR3.PCBDwf
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=CXLJPESG
-
-[Document18]
-DocumentPath=PCBs\DDR3.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=VYPAJQUK
-
-[Document19]
-DocumentPath=PCBs\DDR3.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=LRMJRHNP
-
-[ProjectVariant1]
-UniqueID=CC7EE793-E648-409E-9BD0-A31595FCC60A
-Description=nf
-AllowFabrication=0
-ParameterCount=0
-VariationCount=5
-Variation1=Designator=R13|UniqueId=\RBHJPVMZ|Kind=1|AlternatePart= 
-Variation2=Designator=R?|UniqueId=\VHGAHRYC|Kind=1|AlternatePart= 
-Variation3=Designator=R?|UniqueId=\OCJOEIHU|Kind=1|AlternatePart= 
-Variation4=Designator=R?|UniqueId=\KIVSTSEY|Kind=1|AlternatePart= 
-Variation5=Designator=U3|UniqueId=\YZUDSYDC\QMTXAABL|Kind=0|AlternatePart= 
-ParamVariationCount=0
-
-[GeneratedDocument1]
-DocumentPath=Project Outputs for CCZynq\CCZynq.FRP
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for CCZynq\Design Rule Check - CCZynq.html
-DItemRevisionGUID=
-
-[Configuration1]
-Name=Sources
-ParameterCount=0
-ConstraintFileCount=0
-ReleaseItemId=
-Variant=[No Variations]
-OutputJobsCount=0
-ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
-ConfigurationType=Source
+[SearchPath1]
+Path=C:\Users\hamed\OneDrive\Documents\GitHub\altium\CCZynq1\*.*
+IncludeSubFolders=1
 
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=·¢ËÍÖÁ OneNote 16
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=RacalNetlist
-OutputName1=Racal Netlist
+OutputType1=CadnetixNetlist
+OutputName1=Cadnetix Netlist
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
-OutputType2=RINFNetlist
-OutputName2=RINF Netlist
+OutputType2=CalayNetlist
+OutputName2=Calay Netlist
 OutputDocumentPath2=
 OutputVariantName2=
 OutputDefault2=0
-Configuration2_Name1=ForceUpdateSettings
-Configuration2_Item1=False
-OutputType3=ProtelNetlist
-OutputName3=Protel
+OutputType3=EDIF
+OutputName3=EDIF for PCB
 OutputDocumentPath3=
 OutputVariantName3=
 OutputDefault3=0
-OutputType4=PCADnltNetlist
-OutputName4=PCADnlt Netlist
+OutputType4=EESofNetlist
+OutputName4=EESof Netlist
 OutputDocumentPath4=
 OutputVariantName4=
 OutputDefault4=0
-OutputType5=Protel2Netlist
-OutputName5=Protel2 Netlist
+OutputType5=IntergraphNetlist
+OutputName5=Intergraph Netlist
 OutputDocumentPath5=
 OutputVariantName5=
 OutputDefault5=0
-OutputType6=WireListNetlist
-OutputName6=WireList Netlist
+OutputType6=MentorBoardStationNetlist
+OutputName6=Mentor BoardStation Netlist
 OutputDocumentPath6=
 OutputVariantName6=
 OutputDefault6=0
-OutputType7=XSpiceNetlist
-OutputName7=Mixed Sim Netlist
+OutputType7=MultiWire
+OutputName7=MultiWire
 OutputDocumentPath7=
 OutputVariantName7=
 OutputDefault7=0
-OutputType8=TelesisNetlist
-OutputName8=Telesis Netlist
+OutputType8=OrCadPCB2Netlist
+OutputName8=Orcad/PCB2 Netlist
 OutputDocumentPath8=
 OutputVariantName8=
 OutputDefault8=0
-OutputType9=SciCardsNetlist
-OutputName9=SciCards Netlist
+OutputType9=PADSNetlist
+OutputName9=PADS ASCII Netlist
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
-OutputType10=TangoNetlist
-OutputName10=Tango Netlist
+OutputType10=Pcad
+OutputName10=Pcad for PCB
 OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
@@ -466,53 +147,53 @@ OutputName11=PCAD Netlist
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-OutputType12=EESofNetlist
-OutputName12=EESof Netlist
+OutputType12=PCADnltNetlist
+OutputName12=PCADnlt Netlist
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
-OutputType13=IntergraphNetlist
-OutputName13=Intergraph Netlist
+OutputType13=Protel2Netlist
+OutputName13=Protel2 Netlist
 OutputDocumentPath13=
 OutputVariantName13=
 OutputDefault13=0
-OutputType14=EDIF
-OutputName14=EDIF for PCB
+OutputType14=ProtelNetlist
+OutputName14=Protel
 OutputDocumentPath14=
 OutputVariantName14=
 OutputDefault14=0
-OutputType15=CadnetixNetlist
-OutputName15=Cadnetix Netlist
+OutputType15=RacalNetlist
+OutputName15=Racal Netlist
 OutputDocumentPath15=
 OutputVariantName15=
 OutputDefault15=0
-OutputType16=CalayNetlist
-OutputName16=Calay Netlist
+OutputType16=RINFNetlist
+OutputName16=RINF Netlist
 OutputDocumentPath16=
 OutputVariantName16=
 OutputDefault16=0
-OutputType17=PADSNetlist
-OutputName17=PADS ASCII Netlist
+OutputType17=SciCardsNetlist
+OutputName17=SciCards Netlist
 OutputDocumentPath17=
 OutputVariantName17=
 OutputDefault17=0
-OutputType18=Pcad
-OutputName18=Pcad for PCB
+OutputType18=TangoNetlist
+OutputName18=Tango Netlist
 OutputDocumentPath18=
 OutputVariantName18=
 OutputDefault18=0
-OutputType19=OrCadPCB2Netlist
-OutputName19=Orcad/PCB2 Netlist
+OutputType19=TelesisNetlist
+OutputName19=Telesis Netlist
 OutputDocumentPath19=
 OutputVariantName19=
 OutputDefault19=0
-OutputType20=MentorBoardStationNetlist
-OutputName20=Mentor BoardStation Netlist
+OutputType20=WireListNetlist
+OutputName20=WireList Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
-OutputType21=MultiWire
-OutputName21=MultiWire
+OutputType21=XSpiceNetlist
+OutputName21=Mixed Sim Netlist
 OutputDocumentPath21=
 OutputVariantName21=
 OutputDefault21=0
@@ -520,7 +201,7 @@ OutputDefault21=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=·¢ËÍÖÁ OneNote 16
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AdvSimNetlist
 OutputName1=Mixed Sim
@@ -531,7 +212,7 @@ OutputDefault1=0
 [OutputGroup3]
 Name=Documentation Outputs
 Description=
-TargetPrinter=Virtual Printer
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Composite
 OutputName1=Composite Drawing
@@ -539,86 +220,86 @@ OutputDocumentPath1=
 OutputVariantName1=[No Variations]
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType2=PCB 3D Print
-OutputName2=PCB 3D Print
+OutputType2=Harness Layout Drawing Print
+OutputName2=Harness Layout Drawing Prints
 OutputDocumentPath2=
-OutputVariantName2=[No Variations]
+OutputVariantName2=
 OutputDefault2=0
 PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType3=PCB 3D Video
-OutputName3=PCB 3D Video
+OutputType3=Harness Wiring Diagram Print
+OutputName3=Harness Wiring Diagram Prints
 OutputDocumentPath3=
-OutputVariantName3=[No Variations]
+OutputVariantName3=
 OutputDefault3=0
 PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType4=PCB Print
-OutputName4=PCB Prints
+OutputType4=PCB 3D Print
+OutputName4=PCB 3D Print
 OutputDocumentPath4=
 OutputVariantName4=[No Variations]
 OutputDefault4=0
 PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType5=PCBDrawing
-OutputName5=Draftsman
+OutputType5=PCB 3D Video
+OutputName5=PCB 3D Video
 OutputDocumentPath5=
 OutputVariantName5=[No Variations]
 OutputDefault5=0
 PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType6=PCBLIB Print
-OutputName6=PCBLIB Prints
+OutputType6=PCB Print
+OutputName6=PCB Prints
 OutputDocumentPath6=
 OutputVariantName6=[No Variations]
 OutputDefault6=0
 PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType7=PDF3D
-OutputName7=PDF3D
+OutputType7=PCBDrawing
+OutputName7=Draftsman
 OutputDocumentPath7=
 OutputVariantName7=[No Variations]
 OutputDefault7=0
 PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType8=Report Print
-OutputName8=Report Prints
+OutputType8=PCBDrawing
+OutputName8=Draftsman
 OutputDocumentPath8=
-OutputVariantName8=
+OutputVariantName8=[No Variations]
 OutputDefault8=0
 PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType9=Schematic Print
-OutputName9=Schematic Prints
+OutputType9=PCBDrawing
+OutputName9=Draftsman
 OutputDocumentPath9=
-OutputVariantName9=
+OutputVariantName9=[No Variations]
 OutputDefault9=0
 PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType10=SimView Print
-OutputName10=SimView Prints
+OutputType10=PCBLIB Print
+OutputName10=PCBLIB Prints
 OutputDocumentPath10=
-OutputVariantName10=
+OutputVariantName10=[No Variations]
 OutputDefault10=0
 PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType11=Harness Layout Drawing Print
-OutputName11=Harness Layout Drawing Prints
+OutputType11=PDF3D
+OutputName11=PDF3D
 OutputDocumentPath11=
-OutputVariantName11=
+OutputVariantName11=[No Variations]
 OutputDefault11=0
 PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType12=Harness Wiring Diagram Print
-OutputName12=Harness Wiring Diagram Prints
+OutputType12=PDF3D MBA
+OutputName12=PDF3D MBA
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
 PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType13=PCBDrawing
-OutputName13=Draftsman
+OutputType13=Report Print
+OutputName13=Report Prints
 OutputDocumentPath13=
-OutputVariantName13=[No Variations]
+OutputVariantName13=
 OutputDefault13=0
 PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType14=PCBDrawing
-OutputName14=Draftsman
+OutputType14=Schematic Print
+OutputName14=Schematic Prints
 OutputDocumentPath14=
-OutputVariantName14=[No Variations]
+OutputVariantName14=
 OutputDefault14=0
 PageOptions14=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType15=PDF3D MBA
-OutputName15=PDF3D MBA
+OutputType15=SimView Print
+OutputName15=SimView Prints
 OutputDocumentPath15=
 OutputVariantName15=
 OutputDefault15=0
@@ -627,7 +308,7 @@ PageOptions15=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=·¢ËÍÖÁ OneNote 16
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -649,7 +330,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=·¢ËÍÖÁ OneNote 16
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Board Stack Report
 OutputName1=Report Board Stack
@@ -721,7 +402,7 @@ OutputDefault12=0
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=·¢ËÍÖÁ OneNote 16
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -729,66 +410,54 @@ OutputDocumentPath1=
 OutputVariantName1=[No Variations]
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-Configuration1_Name1=ColumnNameFormat
-Configuration1_Item1=CaptionAsName
-Configuration1_Name2=ForceUpdateSettings
-Configuration1_Item2=False
-Configuration1_Name3=General
-Configuration1_Item3=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateRevisionGuid=|BatchMode=2|FormWidth=1512|FormHeight=975|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=0|UseDirectApi=False|BomSetName=
-Configuration1_Name4=GroupOrder
-Configuration1_Item4=Comment=True|Footprint=True
-Configuration1_Name5=SortOrder
-Configuration1_Item5=Designator=Up|Comment=Up|Footprint=Up
-Configuration1_Name6=VisibleOrder
-Configuration1_Item6=Comment=120|Description=120|Designator=120|Footprint=120|LibRef=120|Quantity=120
-OutputType2=ComponentCrossReference
-OutputName2=Component Cross Reference Report
+OutputType2=BOM_ReportCompare
+OutputName2=BOM Compare
 OutputDocumentPath2=
 OutputVariantName2=[No Variations]
 OutputDefault2=0
-OutputType3=ReportHierarchy
-OutputName3=Report Project Hierarchy
+PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType3=ComponentCrossReference
+OutputName3=Component Cross Reference Report
 OutputDocumentPath3=
 OutputVariantName3=[No Variations]
 OutputDefault3=0
-OutputType4=Script
-OutputName4=Script Output
+OutputType4=Export Comments
+OutputName4=Export Comments
 OutputDocumentPath4=
 OutputVariantName4=[No Variations]
 OutputDefault4=0
-OutputType5=SimpleBOM
-OutputName5=Simple BOM
+PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType5=Project History
+OutputName5=Project History
 OutputDocumentPath5=
 OutputVariantName5=[No Variations]
 OutputDefault5=0
-OutputType6=SinglePinNetReporter
-OutputName6=Report Single Pin Nets
+PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType6=ReportHierarchy
+OutputName6=Report Project Hierarchy
 OutputDocumentPath6=
 OutputVariantName6=[No Variations]
 OutputDefault6=0
-OutputType7=BOM_ReportCompare
-OutputName7=BOM Compare
+OutputType7=Script
+OutputName7=Script Output
 OutputDocumentPath7=
 OutputVariantName7=[No Variations]
 OutputDefault7=0
-PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType8=Export Comments
-OutputName8=Export Comments
+OutputType8=SimpleBOM
+OutputName8=Simple BOM
 OutputDocumentPath8=
 OutputVariantName8=[No Variations]
 OutputDefault8=0
-PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType9=Project History
-OutputName9=Project History
+OutputType9=SinglePinNetReporter
+OutputName9=Report Single Pin Nets
 OutputDocumentPath9=
 OutputVariantName9=[No Variations]
 OutputDefault9=0
-PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=·¢ËÍÖÁ OneNote 16
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -896,7 +565,7 @@ PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=·¢ËÍÖÁ OneNote 16
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_Violations
 OutputName1=BOM Checks Report
@@ -940,7 +609,7 @@ OutputDefault7=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=·¢ËÍÖÁ OneNote 16
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AutoCAD dwg/dxf PCB
 OutputName1=AutoCAD dwg/dxf File PCB
@@ -972,28 +641,28 @@ OutputName6=Export VRML
 OutputDocumentPath6=
 OutputVariantName6=[No Variations]
 OutputDefault6=0
-OutputType7=Save As/Export PCB
-OutputName7=Save As/Export PCB
+OutputType7=MBAExportPARASOLID
+OutputName7=Export PARASOLID
 OutputDocumentPath7=
 OutputVariantName7=
 OutputDefault7=0
-OutputType8=Save As/Export Schematic
-OutputName8=Save As/Export Schematic
+OutputType8=MBAExportSTEP
+OutputName8=Export STEP
 OutputDocumentPath8=
 OutputVariantName8=
 OutputDefault8=0
-OutputType9=Specctra Design PCB
-OutputName9=Specctra Design PCB
+OutputType9=Save As/Export PCB
+OutputName9=Save As/Export PCB
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
-OutputType10=MBAExportPARASOLID
-OutputName10=Export PARASOLID
+OutputType10=Save As/Export Schematic
+OutputName10=Save As/Export Schematic
 OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
-OutputType11=MBAExportSTEP
-OutputName11=Export STEP
+OutputType11=Specctra Design PCB
+OutputName11=Specctra Design PCB
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
@@ -1006,7 +675,7 @@ OutputDefault12=0
 [OutputGroup10]
 Name=PostProcess Outputs
 Description=
-TargetPrinter=·¢ËÍÖÁ OneNote 16
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Copy Files
 OutputName1=Copy Files
@@ -1299,7 +968,7 @@ Type65=2
 Type66=3
 Type67=2
 Type68=2
-Type69=2
+Type69=0
 Type70=2
 Type71=2
 Type72=2
@@ -1426,16 +1095,10 @@ NetClassManualEnabled=1
 NetClassSeparateForBusSections=0
 
 [LibraryUpdateOptions]
-SelectedOnly=1
+SelectedOnly=0
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
-ComponentLibIdentifierKind0=Library Name And Type
-ComponentLibraryIdentifier0=Cap.SchLib
-ComponentDesignItemID0=0402 470nF (474) 10% 10V
-ComponentSymbolReference0=0402 470nF (474) 10% 10V
-ComponentUpdate0=1
-ComponentIsDeviceSheet0=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1449,31 +1112,6 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
-ParameterName0=Comment
-ParameterUpdate0=1
-ParameterName1=Component Kind
-ParameterUpdate1=1
-ParameterName2=ComponentLink1Description
-ParameterUpdate2=1
-ParameterName3=ComponentLink1URL
-ParameterUpdate3=1
-ParameterName4=Description
-ParameterUpdate4=1
-ParameterName5=Library Reference
-ParameterUpdate5=1
-ParameterName6=Notepad
-ParameterUpdate6=1
-ParameterName7=Package
-ParameterUpdate7=1
-ParameterName8=Supplier
-ParameterUpdate8=1
-ParameterName9=SuppliersPartNumber
-ParameterUpdate9=1
-ModelTypeGroup0=PCBLIB
-ModelTypeUpdate0=1
-ModelType0=PCBLIB
-ModelName0=0402_C
-ModelUpdate0=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
@@ -1481,178 +1119,11 @@ UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
 
-[NetInfos]
-Net1=NetName=#RE_0|NetColor=$00FF6E6E
-Net2=NetName=#WE_0|NetColor=$00FF6E6E
-Net3=NetName=ALE_0|NetColor=$00FF6E6E
-Net4=NetName=CLK_0|NetColor=$00FF6E6E
-Net5=NetName=CS_0|NetColor=$00FF6E6E
-Net6=NetName=DDR-0-A[0..14]|NetColor=$00AD7500
-Net7=NetName=DDR-0-A0|NetColor=$00AD7500
-Net8=NetName=DDR-0-A1|NetColor=$00AD7500
-Net9=NetName=DDR-0-A10|NetColor=$00AD7500
-Net10=NetName=DDR-0-A11|NetColor=$00AD7500
-Net11=NetName=DDR-0-A12|NetColor=$00AD7500
-Net12=NetName=DDR-0-A13|NetColor=$00AD7500
-Net13=NetName=DDR-0-A14|NetColor=$00AD7500
-Net14=NetName=DDR-0-A2|NetColor=$00AD7500
-Net15=NetName=DDR-0-A3|NetColor=$00AD7500
-Net16=NetName=DDR-0-A4|NetColor=$00AD7500
-Net17=NetName=DDR-0-A5|NetColor=$00AD7500
-Net18=NetName=DDR-0-A6|NetColor=$00AD7500
-Net19=NetName=DDR-0-A7|NetColor=$00AD7500
-Net20=NetName=DDR-0-A8|NetColor=$00AD7500
-Net21=NetName=DDR-0-A9|NetColor=$00AD7500
-Net22=NetName=DDR-0-BA[0..2]|NetColor=clYellow
-Net23=NetName=DDR-0-BA0|NetColor=clYellow
-Net24=NetName=DDR-0-BA1|NetColor=clYellow
-Net25=NetName=DDR-0-BA2|NetColor=clYellow
-Net26=NetName=DDR-0-CAS|NetColor=clYellow
-Net27=NetName=DDR-0-CLK|NetColor=clYellow
-Net28=NetName=DDR-0-CLK0_N|NetColor=clYellow
-Net29=NetName=DDR-0-CLK0_P|NetColor=clYellow
-Net30=NetName=DDR-0-CS0|NetColor=clYellow
-Net31=NetName=DDR-0-DQ[0..15]|NetColor=$00CA9C00
-Net32=NetName=DDR-0-DQ0|NetColor=$00CA9C00
-Net33=NetName=DDR-0-DQ1|NetColor=$00CA9C00
-Net34=NetName=DDR-0-DQ10|NetColor=$00CA9C00
-Net35=NetName=DDR-0-DQ11|NetColor=$00CA9C00
-Net36=NetName=DDR-0-DQ12|NetColor=$00CA9C00
-Net37=NetName=DDR-0-DQ13|NetColor=$00CA9C00
-Net38=NetName=DDR-0-DQ14|NetColor=$00CA9C00
-Net39=NetName=DDR-0-DQ15|NetColor=$00CA9C00
-Net40=NetName=DDR-0-DQ2|NetColor=$00CA9C00
-Net41=NetName=DDR-0-DQ3|NetColor=$00CA9C00
-Net42=NetName=DDR-0-DQ4|NetColor=$00CA9C00
-Net43=NetName=DDR-0-DQ5|NetColor=$00CA9C00
-Net44=NetName=DDR-0-DQ6|NetColor=$00CA9C00
-Net45=NetName=DDR-0-DQ7|NetColor=$00CA9C00
-Net46=NetName=DDR-0-DQ8|NetColor=$00CA9C00
-Net47=NetName=DDR-0-DQ9|NetColor=$00CA9C00
-Net48=NetName=DDR-0-LDM|NetColor=clYellow
-Net49=NetName=DDR-0-LDQS_N|NetColor=clYellow
-Net50=NetName=DDR-0-LDQS_P|NetColor=clYellow
-Net51=NetName=DDR-0-ODT|NetColor=clYellow
-Net52=NetName=DDR-0-RAS|NetColor=clYellow
-Net53=NetName=DDR-0-RESET|NetColor=clYellow
-Net54=NetName=DDR-0-UDM|NetColor=clYellow
-Net55=NetName=DDR-0-UDQS_N|NetColor=clYellow
-Net56=NetName=DDR-0-UDQS_P|NetColor=clYellow
-Net57=NetName=DDR-0-WE|NetColor=clYellow
-Net58=NetName=GND|NetColor=$00FFFF6E
-Net59=NetName=HDMI_CLK_N|NetColor=$006EFF6E
-Net60=NetName=HDMI_CLK_P|NetColor=$006EFF6E
-Net61=NetName=HDMI_D0_N|NetColor=$006EFF6E
-Net62=NetName=HDMI_D0_P|NetColor=$006EFF6E
-Net63=NetName=HDMI_D1_N|NetColor=$006EFF6E
-Net64=NetName=HDMI_D1_P|NetColor=$006EFF6E
-Net65=NetName=HDMI_D2_N|NetColor=$006EFF6E
-Net66=NetName=HDMI_D2_P|NetColor=$006EFF6E
-Net67=NetName=IO0_0|NetColor=$00FF6E6E
-Net68=NetName=IO1_0|NetColor=$00FF6E6E
-Net69=NetName=IO2_0|NetColor=$00FF6E6E
-Net70=NetName=IO3_0|NetColor=$00FF6E6E
-Net71=NetName=IO4_0|NetColor=$00FF6E6E
-Net72=NetName=IO5_0|NetColor=$00FF6E6E
-Net73=NetName=IO6_0|NetColor=$00FF6E6E
-Net74=NetName=IO7_0|NetColor=$00FF6E6E
-Net75=NetName=P1_N|NetColor=$00FF6EFF
-Net76=NetName=P1_P|NetColor=$00FF6EFF
-Net77=NetName=P2_N|NetColor=$00FF6EFF
-Net78=NetName=P2_P|NetColor=$00FF6EFF
-Net79=NetName=P3_N|NetColor=$00FF6EFF
-Net80=NetName=P3_P|NetColor=$00FF6EFF
-Net81=NetName=P4_N|NetColor=$00FF6EFF
-Net82=NetName=P4_P|NetColor=$00FF6EFF
-Net83=NetName=P5_N|NetColor=$00FF6EFF
-Net84=NetName=P5_P|NetColor=$00FF6EFF
-Net85=NetName=PS_MIO[15..53]|NetColor=$0000BE00
-Net86=NetName=PS_MIO15|NetColor=$0000BE00
-Net87=NetName=PS_MIO16|NetColor=$0000BE00
-Net88=NetName=PS_MIO17|NetColor=$0000BE00
-Net89=NetName=PS_MIO18|NetColor=$0000BE00
-Net90=NetName=PS_MIO19|NetColor=$0000BE00
-Net91=NetName=PS_MIO20|NetColor=$0000BE00
-Net92=NetName=PS_MIO21|NetColor=$0000BE00
-Net93=NetName=PS_MIO22|NetColor=$0000BE00
-Net94=NetName=PS_MIO23|NetColor=$0000BE00
-Net95=NetName=PS_MIO24|NetColor=$0000BE00
-Net96=NetName=PS_MIO25|NetColor=$0000BE00
-Net97=NetName=PS_MIO26|NetColor=$0000BE00
-Net98=NetName=PS_MIO27|NetColor=$0000BE00
-Net99=NetName=PS_MIO28|NetColor=$0000BE00
-Net100=NetName=PS_MIO29|NetColor=$0000BE00
-Net101=NetName=PS_MIO30|NetColor=$0000BE00
-Net102=NetName=PS_MIO31|NetColor=$0000BE00
-Net103=NetName=PS_MIO32|NetColor=$0000BE00
-Net104=NetName=PS_MIO33|NetColor=$0000BE00
-Net105=NetName=PS_MIO34|NetColor=$0000BE00
-Net106=NetName=PS_MIO35|NetColor=$0000BE00
-Net107=NetName=PS_MIO36|NetColor=$0000BE00
-Net108=NetName=PS_MIO37|NetColor=$0000BE00
-Net109=NetName=PS_MIO38|NetColor=$0000BE00
-Net110=NetName=PS_MIO39|NetColor=$0000BE00
-Net111=NetName=PS_MIO40|NetColor=$0000BE00
-Net112=NetName=PS_MIO41|NetColor=$0000BE00
-Net113=NetName=PS_MIO42|NetColor=$0000BE00
-Net114=NetName=PS_MIO43|NetColor=$0000BE00
-Net115=NetName=PS_MIO44|NetColor=$0000BE00
-Net116=NetName=PS_MIO45|NetColor=$0000BE00
-Net117=NetName=PS_MIO46|NetColor=$0000BE00
-Net118=NetName=PS_MIO47|NetColor=$0000BE00
-Net119=NetName=PS_MIO48|NetColor=$0000BE00
-Net120=NetName=PS_MIO49|NetColor=$0000BE00
-Net121=NetName=PS_MIO50|NetColor=$0000BE00
-Net122=NetName=PS_MIO51|NetColor=$0000BE00
-Net123=NetName=PS_MIO52|NetColor=$0000BE00
-Net124=NetName=PS_MIO53|NetColor=$0000BE00
-Net125=NetName=Q1_N|NetColor=$00FF6EFF
-Net126=NetName=Q1_P|NetColor=$00FF6EFF
-Net127=NetName=Q2_N|NetColor=$00FF6EFF
-Net128=NetName=Q2_P|NetColor=$00FF6EFF
-Net129=NetName=Q4_N|NetColor=$00FF6EFF
-Net130=NetName=Q4_P|NetColor=$00FF6EFF
-Net131=NetName=RY/#BY_0|NetColor=$00FF6E6E
-Net132=NetName=SD_CMD|NetColor=$00C595DE
-Net133=NetName=SD_DAT0|NetColor=$00C595DE
-Net134=NetName=SD_DAT1|NetColor=$00C595DE
-Net135=NetName=SD_DAT2|NetColor=$00C595DE
-Net136=NetName=SD_DAT3|NetColor=$00C595DE
-Net137=NetName=SD_NCD|NetColor=$00C595DE
-Net138=NetName=SD_SCK|NetColor=$00C595DE
-Net139=NetName=TCK|NetColor=$006E6EFF
-Net140=NetName=TDI|NetColor=$006E6EFF
-Net141=NetName=TDO|NetColor=$006E6EFF
-Net142=NetName=TMS|NetColor=$006E6EFF
-Net143=NetName=USB_DATA0|NetColor=$0081F6FF
-Net144=NetName=USB_DATA1|NetColor=$0081F6FF
-Net145=NetName=USB_DATA2|NetColor=$0081F6FF
-Net146=NetName=USB_DATA3|NetColor=$0081F6FF
-Net147=NetName=USB_DATA4|NetColor=$0081F6FF
-Net148=NetName=USB_DATA5|NetColor=$0081F6FF
-Net149=NetName=USB_DATA6|NetColor=$0081F6FF
-Net150=NetName=USB_DATA7|NetColor=$0081F6FF
-Net151=NetName=USB_DIR|NetColor=$0081F6FF
-Net152=NetName=USB_NXT|NetColor=$0081F6FF
-Net153=NetName=USB_STP|NetColor=$0081F6FF
-Net154=NetName=USBD2_N|NetColor=$00FF6EFF
-Net155=NetName=USBD2_P|NetColor=$00FF6EFF
-Net156=NetName=USBnINT|NetColor=$0081F6FF
-Net157=NetName=USBRXD|NetColor=$0081F6FF
-Net158=NetName=USBTXD|NetColor=$0081F6FF
-Net159=NetName=VCC1V0|NetColor=$008F88FF
-Net160=NetName=VCC1V5|NetColor=$009A72A6
-Net161=NetName=VCC1V8|NetColor=$000083FD
-Net162=NetName=VCC3V3|NetColor=$008BCBFF
-
 [Comparison Options]
-ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
-ComparisonOptions1=Kind=Net Class|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
-ComparisonOptions2=Kind=Component Class|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
-ComparisonOptions3=Kind=Rule|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
+ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
+ComparisonOptions1=Kind=Net Class|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
+ComparisonOptions2=Kind=Component Class|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
+ComparisonOptions3=Kind=Rule|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
 ComparisonOptions4=Kind=Differential Pair|MinPercent=50|MinMatch=1|ShowMatch=0|UseName=0|InclAllRules=0
-ComparisonOptions5=Kind=Structure Class|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
-
-[SmartPDF]
-PageOptions=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+ComparisonOptions5=Kind=Structure Class|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
 
