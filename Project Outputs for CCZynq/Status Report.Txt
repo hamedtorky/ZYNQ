@@ -1,10 +1,10 @@
-Output: RINF Netlist
-Type  : RINFNetlist
+Output: Cadnetix Netlist
+Type  : CadnetixNetlist
 From  : Project [CCZynq.PrjPCB]
-   Generated File[CCZynq.FRP]
+   Generated File[CCZynq.NET]
 
 
 Files Generated   : 1
 Documents Printed : 0
 
-Finished Output Generation At 6:45:18 PM On 1/11/2024
+Finished Output Generation At 4:20:35 PM On 1/25/2024
