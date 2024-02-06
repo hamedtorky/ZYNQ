@@ -99,7 +99,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=IUHEUYPH
 
 [Document4]
 DocumentPath=Sheets\ZYNQ_BANK.SchDoc
@@ -136,6 +136,23 @@ GenerateClassCluster=0
 DocumentUniqueId=QYRSVBTF
 
 [Document6]
+DocumentPath=Sheets\ZYNQ_DDR.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=KBWLWFVD
+
+[Document7]
 DocumentPath=Sheets\PSCLK.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -150,9 +167,9 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=HMEEBCFM
 
-[Document7]
+[Document8]
 DocumentPath=Sheets\ZYNQ_PW.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -169,7 +186,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VJSOALIE
 
-[Document8]
+[Document9]
 DocumentPath=Sheets\Power.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -186,7 +203,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HXIITCKX
 
-[Document9]
+[Document10]
 DocumentPath=CCZynq.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -203,7 +220,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document10]
+[Document11]
 DocumentPath=Sheets\Diagram.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -220,7 +237,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CJSMABKO
 
-[Document11]
+[Document12]
 DocumentPath=CCZynq.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -237,7 +254,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document12]
+[Document13]
 DocumentPath=Sheets\Power_DDRTermination.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -252,9 +269,9 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=DHULACUQ
 
-[Document13]
+[Document14]
 DocumentPath=CCZynq.SCHLIB
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -271,7 +288,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NVBYMCUQ
 
-[Document14]
+[Document15]
 DocumentPath=PCB1.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -288,7 +305,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AEFCUYMJ
 
-[Document15]
+[Document16]
 DocumentPath=..\..\AltiumLL\SamacSys.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -305,7 +322,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document16]
+[Document17]
 DocumentPath=DDR3.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -322,7 +339,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CRDVFLVG
 
-[Document17]
+[Document18]
 DocumentPath=DDR3.PCBDwf
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -339,7 +356,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CXLJPESG
 
-[Document18]
+[Document19]
 DocumentPath=PCBs\DDR3.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -356,7 +373,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VYPAJQUK
 
-[Document19]
+[Document20]
 DocumentPath=PCBs\DDR3.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -373,7 +390,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LRMJRHNP
 
-[Document20]
+[Document21]
 DocumentPath=PCBs\DDR31.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -390,14 +407,14 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PRANPKWQ
 
-[Document21]
+[Document22]
 DocumentPath=Sheets\RPI-CM3.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=10
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -407,7 +424,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JKKFJVMG
 
-[Document22]
+[Document23]
 DocumentPath=Sheets\ZYNQ_BANK.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -424,7 +441,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document23]
+[Document24]
 DocumentPath=Sheets\RPI-CM3.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -459,6 +476,10 @@ DocumentPath=Project Outputs for CCZynq\CCZynq.FRP
 DItemRevisionGUID=
 
 [GeneratedDocument2]
+DocumentPath=Project Outputs for CCZynq\CCZynq.NET
+DItemRevisionGUID=
+
+[GeneratedDocument3]
 DocumentPath=Project Outputs for CCZynq\Design Rule Check - CCZynq.html
 DItemRevisionGUID=
 
@@ -477,55 +498,55 @@ Name=Netlist Outputs
 Description=
 TargetPrinter=·¢ËÍÖÁ OneNote 16
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=RacalNetlist
-OutputName1=Racal Netlist
+OutputType1=CadnetixNetlist
+OutputName1=Cadnetix Netlist
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
-OutputType2=RINFNetlist
-OutputName2=RINF Netlist
+Configuration1_Name1=ForceUpdateSettings
+Configuration1_Item1=False
+OutputType2=CalayNetlist
+OutputName2=Calay Netlist
 OutputDocumentPath2=
 OutputVariantName2=
 OutputDefault2=0
-Configuration2_Name1=ForceUpdateSettings
-Configuration2_Item1=False
-OutputType3=ProtelNetlist
-OutputName3=Protel
+OutputType3=EDIF
+OutputName3=EDIF for PCB
 OutputDocumentPath3=
 OutputVariantName3=
 OutputDefault3=0
-OutputType4=PCADnltNetlist
-OutputName4=PCADnlt Netlist
+OutputType4=EESofNetlist
+OutputName4=EESof Netlist
 OutputDocumentPath4=
 OutputVariantName4=
 OutputDefault4=0
-OutputType5=Protel2Netlist
-OutputName5=Protel2 Netlist
+OutputType5=IntergraphNetlist
+OutputName5=Intergraph Netlist
 OutputDocumentPath5=
 OutputVariantName5=
 OutputDefault5=0
-OutputType6=WireListNetlist
-OutputName6=WireList Netlist
+OutputType6=MentorBoardStationNetlist
+OutputName6=Mentor BoardStation Netlist
 OutputDocumentPath6=
 OutputVariantName6=
 OutputDefault6=0
-OutputType7=XSpiceNetlist
-OutputName7=Mixed Sim Netlist
+OutputType7=MultiWire
+OutputName7=MultiWire
 OutputDocumentPath7=
 OutputVariantName7=
 OutputDefault7=0
-OutputType8=TelesisNetlist
-OutputName8=Telesis Netlist
+OutputType8=OrCadPCB2Netlist
+OutputName8=Orcad/PCB2 Netlist
 OutputDocumentPath8=
 OutputVariantName8=
 OutputDefault8=0
-OutputType9=SciCardsNetlist
-OutputName9=SciCards Netlist
+OutputType9=PADSNetlist
+OutputName9=PADS ASCII Netlist
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
-OutputType10=TangoNetlist
-OutputName10=Tango Netlist
+OutputType10=Pcad
+OutputName10=Pcad for PCB
 OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
@@ -534,53 +555,55 @@ OutputName11=PCAD Netlist
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-OutputType12=EESofNetlist
-OutputName12=EESof Netlist
+OutputType12=PCADnltNetlist
+OutputName12=PCADnlt Netlist
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
-OutputType13=IntergraphNetlist
-OutputName13=Intergraph Netlist
+OutputType13=Protel2Netlist
+OutputName13=Protel2 Netlist
 OutputDocumentPath13=
 OutputVariantName13=
 OutputDefault13=0
-OutputType14=EDIF
-OutputName14=EDIF for PCB
+OutputType14=ProtelNetlist
+OutputName14=Protel
 OutputDocumentPath14=
 OutputVariantName14=
 OutputDefault14=0
-OutputType15=CadnetixNetlist
-OutputName15=Cadnetix Netlist
+OutputType15=RacalNetlist
+OutputName15=Racal Netlist
 OutputDocumentPath15=
 OutputVariantName15=
 OutputDefault15=0
-OutputType16=CalayNetlist
-OutputName16=Calay Netlist
+OutputType16=RINFNetlist
+OutputName16=RINF Netlist
 OutputDocumentPath16=
 OutputVariantName16=
 OutputDefault16=0
-OutputType17=PADSNetlist
-OutputName17=PADS ASCII Netlist
+Configuration16_Name1=ForceUpdateSettings
+Configuration16_Item1=False
+OutputType17=SciCardsNetlist
+OutputName17=SciCards Netlist
 OutputDocumentPath17=
 OutputVariantName17=
 OutputDefault17=0
-OutputType18=Pcad
-OutputName18=Pcad for PCB
+OutputType18=TangoNetlist
+OutputName18=Tango Netlist
 OutputDocumentPath18=
 OutputVariantName18=
 OutputDefault18=0
-OutputType19=OrCadPCB2Netlist
-OutputName19=Orcad/PCB2 Netlist
+OutputType19=TelesisNetlist
+OutputName19=Telesis Netlist
 OutputDocumentPath19=
 OutputVariantName19=
 OutputDefault19=0
-OutputType20=MentorBoardStationNetlist
-OutputName20=Mentor BoardStation Netlist
+OutputType20=WireListNetlist
+OutputName20=WireList Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
-OutputType21=MultiWire
-OutputName21=MultiWire
+OutputType21=XSpiceNetlist
+OutputName21=Mixed Sim Netlist
 OutputDocumentPath21=
 OutputVariantName21=
 OutputDefault21=0
@@ -1499,11 +1522,17 @@ UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
-ComponentLibraryIdentifier0=Cap.SchLib
-ComponentDesignItemID0=0402 470nF (474) 10% 10V
-ComponentSymbolReference0=0402 470nF (474) 10% 10V
-ComponentUpdate0=1
+ComponentLibraryIdentifier0=AmpherLib.IntLib
+ComponentDesignItemID0=Cap_0.1uF_50V_X7R_0402
+ComponentSymbolReference0=Cap_0.1uF_50V_X7R_0402
+ComponentUpdate0=0
 ComponentIsDeviceSheet0=0
+ComponentLibIdentifierKind1=Library Name Only
+ComponentLibraryIdentifier1=Altium Content Vault
+ComponentDesignItemID1=CMP-2002-08397-1
+ComponentSymbolReference1=RES
+ComponentUpdate1=1
+ComponentIsDeviceSheet1=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1517,31 +1546,118 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
-ParameterName0=Comment
+ParameterName0=Applications
 ParameterUpdate0=1
-ParameterName1=Component Kind
+ParameterName1=Capacitance
 ParameterUpdate1=1
-ParameterName2=ComponentLink1Description
+ParameterName2=Category
 ParameterUpdate2=1
-ParameterName3=ComponentLink1URL
+ParameterName3=Comment
 ParameterUpdate3=1
-ParameterName4=Description
+ParameterName4=Component Kind
 ParameterUpdate4=1
-ParameterName5=Library Reference
+ParameterName5=Component Type
 ParameterUpdate5=1
-ParameterName6=Notepad
+ParameterName6=ComponentLink1Description
 ParameterUpdate6=1
-ParameterName7=Package
+ParameterName7=ComponentLink1URL
 ParameterUpdate7=1
-ParameterName8=Supplier
+ParameterName8=ComponentLink2Description
 ParameterUpdate8=1
-ParameterName9=SuppliersPartNumber
+ParameterName9=ComponentLink2URL
 ParameterUpdate9=1
+ParameterName10=ComponentLink3Description
+ParameterUpdate10=1
+ParameterName11=ComponentLink3URL
+ParameterUpdate11=1
+ParameterName12=ComponentLink4Description
+ParameterUpdate12=1
+ParameterName13=ComponentLink4URL
+ParameterUpdate13=1
+ParameterName14=ComponentLink5Description
+ParameterUpdate14=1
+ParameterName15=ComponentLink5URL
+ParameterUpdate15=1
+ParameterName16=ComponentLink6Description
+ParameterUpdate16=1
+ParameterName17=ComponentLink6URL
+ParameterUpdate17=1
+ParameterName18=ComponentLink7Description
+ParameterUpdate18=1
+ParameterName19=ComponentLink7URL
+ParameterUpdate19=1
+ParameterName20=ComponentLink8Description
+ParameterUpdate20=1
+ParameterName21=ComponentLink8URL
+ParameterUpdate21=1
+ParameterName22=Description
+ParameterUpdate22=1
+ParameterName23=Library Reference
+ParameterUpdate23=1
+ParameterName24=Manufacturer
+ParameterUpdate24=1
+ParameterName25=Manufacturer 1
+ParameterUpdate25=1
+ParameterName26=Manufacturer Part Number
+ParameterUpdate26=1
+ParameterName27=Manufacturer Part Number 1
+ParameterUpdate27=1
+ParameterName28=Mounting Type
+ParameterUpdate28=1
+ParameterName29=Note
+ParameterUpdate29=1
+ParameterName30=Operating Temperature
+ParameterUpdate30=1
+ParameterName31=Package
+ParameterUpdate31=1
+ParameterName32=Part Number
+ParameterUpdate32=1
+ParameterName33=Ratings
+ParameterUpdate33=1
+ParameterName34=RoHS
+ParameterUpdate34=1
+ParameterName35=Stock
+ParameterUpdate35=1
+ParameterName36=Supplier
+ParameterUpdate36=1
+ParameterName37=Supplier 1
+ParameterUpdate37=1
+ParameterName38=Supplier 2
+ParameterUpdate38=1
+ParameterName39=Supplier 3
+ParameterUpdate39=1
+ParameterName40=Supplier Part Number
+ParameterUpdate40=1
+ParameterName41=Supplier Part Number 1
+ParameterUpdate41=1
+ParameterName42=Supplier Part Number 2
+ParameterUpdate42=1
+ParameterName43=Supplier Part Number 3
+ParameterUpdate43=1
+ParameterName44=Temperature Coefficient
+ParameterUpdate44=1
+ParameterName45=Tolerance
+ParameterUpdate45=1
+ParameterName46=Type
+ParameterUpdate46=1
+ParameterName47=Value
+ParameterUpdate47=1
+ParameterName48=Voltage
+ParameterUpdate48=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=0402_C
+ModelName0=CAP0402i
 ModelUpdate0=1
+ModelType1=PCBLIB
+ModelName1=RESC1005X40X25LL05T05
+ModelUpdate1=1
+ModelType2=PCBLIB
+ModelName2=RESC1005X40X25ML05T05
+ModelUpdate2=1
+ModelType3=PCBLIB
+ModelName3=RESC1005X40X25NL05T05
+ModelUpdate3=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
@@ -1607,111 +1723,113 @@ Net54=NetName=DDR-0-UDM|NetColor=clYellow
 Net55=NetName=DDR-0-UDQS_N|NetColor=clYellow
 Net56=NetName=DDR-0-UDQS_P|NetColor=clYellow
 Net57=NetName=DDR-0-WE|NetColor=clYellow
-Net58=NetName=GND|NetColor=$00FFFF6E
-Net59=NetName=HDMI_CLK_N|NetColor=$006EFF6E
-Net60=NetName=HDMI_CLK_P|NetColor=$006EFF6E
-Net61=NetName=HDMI_D0_N|NetColor=$006EFF6E
-Net62=NetName=HDMI_D0_P|NetColor=$006EFF6E
-Net63=NetName=HDMI_D1_N|NetColor=$006EFF6E
-Net64=NetName=HDMI_D1_P|NetColor=$006EFF6E
-Net65=NetName=HDMI_D2_N|NetColor=$006EFF6E
-Net66=NetName=HDMI_D2_P|NetColor=$006EFF6E
-Net67=NetName=IO0_0|NetColor=$00FF6E6E
-Net68=NetName=IO1_0|NetColor=$00FF6E6E
-Net69=NetName=IO2_0|NetColor=$00FF6E6E
-Net70=NetName=IO3_0|NetColor=$00FF6E6E
-Net71=NetName=IO4_0|NetColor=$00FF6E6E
-Net72=NetName=IO5_0|NetColor=$00FF6E6E
-Net73=NetName=IO6_0|NetColor=$00FF6E6E
-Net74=NetName=IO7_0|NetColor=$00FF6E6E
-Net75=NetName=P1_N|NetColor=$00FF6EFF
-Net76=NetName=P1_P|NetColor=$00FF6EFF
-Net77=NetName=P2_N|NetColor=$00FF6EFF
-Net78=NetName=P2_P|NetColor=$00FF6EFF
-Net79=NetName=P3_N|NetColor=$00FF6EFF
-Net80=NetName=P3_P|NetColor=$00FF6EFF
-Net81=NetName=P4_N|NetColor=$00FF6EFF
-Net82=NetName=P4_P|NetColor=$00FF6EFF
-Net83=NetName=P5_N|NetColor=$00FF6EFF
-Net84=NetName=P5_P|NetColor=$00FF6EFF
-Net85=NetName=PS_MIO[15..53]|NetColor=$0000BE00
-Net86=NetName=PS_MIO15|NetColor=$0000BE00
-Net87=NetName=PS_MIO16|NetColor=$0000BE00
-Net88=NetName=PS_MIO17|NetColor=$0000BE00
-Net89=NetName=PS_MIO18|NetColor=$0000BE00
-Net90=NetName=PS_MIO19|NetColor=$0000BE00
-Net91=NetName=PS_MIO20|NetColor=$0000BE00
-Net92=NetName=PS_MIO21|NetColor=$0000BE00
-Net93=NetName=PS_MIO22|NetColor=$0000BE00
-Net94=NetName=PS_MIO23|NetColor=$0000BE00
-Net95=NetName=PS_MIO24|NetColor=$0000BE00
-Net96=NetName=PS_MIO25|NetColor=$0000BE00
-Net97=NetName=PS_MIO26|NetColor=$0000BE00
-Net98=NetName=PS_MIO27|NetColor=$0000BE00
-Net99=NetName=PS_MIO28|NetColor=$0000BE00
-Net100=NetName=PS_MIO29|NetColor=$0000BE00
-Net101=NetName=PS_MIO30|NetColor=$0000BE00
-Net102=NetName=PS_MIO31|NetColor=$0000BE00
-Net103=NetName=PS_MIO32|NetColor=$0000BE00
-Net104=NetName=PS_MIO33|NetColor=$0000BE00
-Net105=NetName=PS_MIO34|NetColor=$0000BE00
-Net106=NetName=PS_MIO35|NetColor=$0000BE00
-Net107=NetName=PS_MIO36|NetColor=$0000BE00
-Net108=NetName=PS_MIO37|NetColor=$0000BE00
-Net109=NetName=PS_MIO38|NetColor=$0000BE00
-Net110=NetName=PS_MIO39|NetColor=$0000BE00
-Net111=NetName=PS_MIO40|NetColor=$0000BE00
-Net112=NetName=PS_MIO41|NetColor=$0000BE00
-Net113=NetName=PS_MIO42|NetColor=$0000BE00
-Net114=NetName=PS_MIO43|NetColor=$0000BE00
-Net115=NetName=PS_MIO44|NetColor=$0000BE00
-Net116=NetName=PS_MIO45|NetColor=$0000BE00
-Net117=NetName=PS_MIO46|NetColor=$0000BE00
-Net118=NetName=PS_MIO47|NetColor=$0000BE00
-Net119=NetName=PS_MIO48|NetColor=$0000BE00
-Net120=NetName=PS_MIO49|NetColor=$0000BE00
-Net121=NetName=PS_MIO50|NetColor=$0000BE00
-Net122=NetName=PS_MIO51|NetColor=$0000BE00
-Net123=NetName=PS_MIO52|NetColor=$0000BE00
-Net124=NetName=PS_MIO53|NetColor=$0000BE00
-Net125=NetName=Q1_N|NetColor=$00FF6EFF
-Net126=NetName=Q1_P|NetColor=$00FF6EFF
-Net127=NetName=Q2_N|NetColor=$00FF6EFF
-Net128=NetName=Q2_P|NetColor=$00FF6EFF
-Net129=NetName=Q4_N|NetColor=$00FF6EFF
-Net130=NetName=Q4_P|NetColor=$00FF6EFF
-Net131=NetName=RY/#BY_0|NetColor=$00FF6E6E
-Net132=NetName=SD_CMD|NetColor=$00C595DE
-Net133=NetName=SD_DAT0|NetColor=$00C595DE
-Net134=NetName=SD_DAT1|NetColor=$00C595DE
-Net135=NetName=SD_DAT2|NetColor=$00C595DE
-Net136=NetName=SD_DAT3|NetColor=$00C595DE
-Net137=NetName=SD_NCD|NetColor=$00C595DE
-Net138=NetName=SD_SCK|NetColor=$00C595DE
-Net139=NetName=TCK|NetColor=$006E6EFF
-Net140=NetName=TDI|NetColor=$006E6EFF
-Net141=NetName=TDO|NetColor=$006E6EFF
-Net142=NetName=TMS|NetColor=$006E6EFF
-Net143=NetName=USB_DATA0|NetColor=$0081F6FF
-Net144=NetName=USB_DATA1|NetColor=$0081F6FF
-Net145=NetName=USB_DATA2|NetColor=$0081F6FF
-Net146=NetName=USB_DATA3|NetColor=$0081F6FF
-Net147=NetName=USB_DATA4|NetColor=$0081F6FF
-Net148=NetName=USB_DATA5|NetColor=$0081F6FF
-Net149=NetName=USB_DATA6|NetColor=$0081F6FF
-Net150=NetName=USB_DATA7|NetColor=$0081F6FF
-Net151=NetName=USB_DIR|NetColor=$0081F6FF
-Net152=NetName=USB_NXT|NetColor=$0081F6FF
-Net153=NetName=USB_STP|NetColor=$0081F6FF
-Net154=NetName=USBD2_N|NetColor=$00FF6EFF
-Net155=NetName=USBD2_P|NetColor=$00FF6EFF
-Net156=NetName=USBnINT|NetColor=$0081F6FF
-Net157=NetName=USBRXD|NetColor=$0081F6FF
-Net158=NetName=USBTXD|NetColor=$0081F6FF
-Net159=NetName=VCC1V0|NetColor=$008F88FF
-Net160=NetName=VCC1V5|NetColor=$009A72A6
-Net161=NetName=VCC1V8|NetColor=$000083FD
-Net162=NetName=VCC3V3|NetColor=$008BCBFF
+Net58=NetName=DDR-DM0|NetColor=clYellow
+Net59=NetName=DDR-DM1|NetColor=clYellow
+Net60=NetName=GND|NetColor=$00FFFF6E
+Net61=NetName=HDMI_CLK_N|NetColor=$006EFF6E
+Net62=NetName=HDMI_CLK_P|NetColor=$006EFF6E
+Net63=NetName=HDMI_D0_N|NetColor=$006EFF6E
+Net64=NetName=HDMI_D0_P|NetColor=$006EFF6E
+Net65=NetName=HDMI_D1_N|NetColor=$006EFF6E
+Net66=NetName=HDMI_D1_P|NetColor=$006EFF6E
+Net67=NetName=HDMI_D2_N|NetColor=$006EFF6E
+Net68=NetName=HDMI_D2_P|NetColor=$006EFF6E
+Net69=NetName=IO0_0|NetColor=$00FF6E6E
+Net70=NetName=IO1_0|NetColor=$00FF6E6E
+Net71=NetName=IO2_0|NetColor=$00FF6E6E
+Net72=NetName=IO3_0|NetColor=$00FF6E6E
+Net73=NetName=IO4_0|NetColor=$00FF6E6E
+Net74=NetName=IO5_0|NetColor=$00FF6E6E
+Net75=NetName=IO6_0|NetColor=$00FF6E6E
+Net76=NetName=IO7_0|NetColor=$00FF6E6E
+Net77=NetName=P1_N|NetColor=$00FF6EFF
+Net78=NetName=P1_P|NetColor=$00FF6EFF
+Net79=NetName=P2_N|NetColor=$00FF6EFF
+Net80=NetName=P2_P|NetColor=$00FF6EFF
+Net81=NetName=P3_N|NetColor=$00FF6EFF
+Net82=NetName=P3_P|NetColor=$00FF6EFF
+Net83=NetName=P4_N|NetColor=$00FF6EFF
+Net84=NetName=P4_P|NetColor=$00FF6EFF
+Net85=NetName=P5_N|NetColor=$00FF6EFF
+Net86=NetName=P5_P|NetColor=$00FF6EFF
+Net87=NetName=PS_MIO[15..53]|NetColor=$0000BE00
+Net88=NetName=PS_MIO15|NetColor=$0000BE00
+Net89=NetName=PS_MIO16|NetColor=$0000BE00
+Net90=NetName=PS_MIO17|NetColor=$0000BE00
+Net91=NetName=PS_MIO18|NetColor=$0000BE00
+Net92=NetName=PS_MIO19|NetColor=$0000BE00
+Net93=NetName=PS_MIO20|NetColor=$0000BE00
+Net94=NetName=PS_MIO21|NetColor=$0000BE00
+Net95=NetName=PS_MIO22|NetColor=$0000BE00
+Net96=NetName=PS_MIO23|NetColor=$0000BE00
+Net97=NetName=PS_MIO24|NetColor=$0000BE00
+Net98=NetName=PS_MIO25|NetColor=$0000BE00
+Net99=NetName=PS_MIO26|NetColor=$0000BE00
+Net100=NetName=PS_MIO27|NetColor=$0000BE00
+Net101=NetName=PS_MIO28|NetColor=$0000BE00
+Net102=NetName=PS_MIO29|NetColor=$0000BE00
+Net103=NetName=PS_MIO30|NetColor=$0000BE00
+Net104=NetName=PS_MIO31|NetColor=$0000BE00
+Net105=NetName=PS_MIO32|NetColor=$0000BE00
+Net106=NetName=PS_MIO33|NetColor=$0000BE00
+Net107=NetName=PS_MIO34|NetColor=$0000BE00
+Net108=NetName=PS_MIO35|NetColor=$0000BE00
+Net109=NetName=PS_MIO36|NetColor=$0000BE00
+Net110=NetName=PS_MIO37|NetColor=$0000BE00
+Net111=NetName=PS_MIO38|NetColor=$0000BE00
+Net112=NetName=PS_MIO39|NetColor=$0000BE00
+Net113=NetName=PS_MIO40|NetColor=$0000BE00
+Net114=NetName=PS_MIO41|NetColor=$0000BE00
+Net115=NetName=PS_MIO42|NetColor=$0000BE00
+Net116=NetName=PS_MIO43|NetColor=$0000BE00
+Net117=NetName=PS_MIO44|NetColor=$0000BE00
+Net118=NetName=PS_MIO45|NetColor=$0000BE00
+Net119=NetName=PS_MIO46|NetColor=$0000BE00
+Net120=NetName=PS_MIO47|NetColor=$0000BE00
+Net121=NetName=PS_MIO48|NetColor=$0000BE00
+Net122=NetName=PS_MIO49|NetColor=$0000BE00
+Net123=NetName=PS_MIO50|NetColor=$0000BE00
+Net124=NetName=PS_MIO51|NetColor=$0000BE00
+Net125=NetName=PS_MIO52|NetColor=$0000BE00
+Net126=NetName=PS_MIO53|NetColor=$0000BE00
+Net127=NetName=Q1_N|NetColor=$00FF6EFF
+Net128=NetName=Q1_P|NetColor=$00FF6EFF
+Net129=NetName=Q2_N|NetColor=$00FF6EFF
+Net130=NetName=Q2_P|NetColor=$00FF6EFF
+Net131=NetName=Q4_N|NetColor=$00FF6EFF
+Net132=NetName=Q4_P|NetColor=$00FF6EFF
+Net133=NetName=RY/#BY_0|NetColor=$00FF6E6E
+Net134=NetName=SD_CMD|NetColor=$00C595DE
+Net135=NetName=SD_DAT0|NetColor=$00C595DE
+Net136=NetName=SD_DAT1|NetColor=$00C595DE
+Net137=NetName=SD_DAT2|NetColor=$00C595DE
+Net138=NetName=SD_DAT3|NetColor=$00C595DE
+Net139=NetName=SD_NCD|NetColor=$00C595DE
+Net140=NetName=SD_SCK|NetColor=$00C595DE
+Net141=NetName=TCK|NetColor=$006E6EFF
+Net142=NetName=TDI|NetColor=$006E6EFF
+Net143=NetName=TDO|NetColor=$006E6EFF
+Net144=NetName=TMS|NetColor=$006E6EFF
+Net145=NetName=USB_DATA0|NetColor=$0081F6FF
+Net146=NetName=USB_DATA1|NetColor=$0081F6FF
+Net147=NetName=USB_DATA2|NetColor=$0081F6FF
+Net148=NetName=USB_DATA3|NetColor=$0081F6FF
+Net149=NetName=USB_DATA4|NetColor=$0081F6FF
+Net150=NetName=USB_DATA5|NetColor=$0081F6FF
+Net151=NetName=USB_DATA6|NetColor=$0081F6FF
+Net152=NetName=USB_DATA7|NetColor=$0081F6FF
+Net153=NetName=USB_DIR|NetColor=$0081F6FF
+Net154=NetName=USB_NXT|NetColor=$0081F6FF
+Net155=NetName=USB_STP|NetColor=$0081F6FF
+Net156=NetName=USBD2_N|NetColor=$00FF6EFF
+Net157=NetName=USBD2_P|NetColor=$00FF6EFF
+Net158=NetName=USBnINT|NetColor=$0081F6FF
+Net159=NetName=USBRXD|NetColor=$0081F6FF
+Net160=NetName=USBTXD|NetColor=$0081F6FF
+Net161=NetName=VCC1V0|NetColor=$008F88FF
+Net162=NetName=VCC1V5|NetColor=$009A72A6
+Net163=NetName=VCC1V8|NetColor=$000083FD
+Net164=NetName=VCC3V3|NetColor=$008BCBFF
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
